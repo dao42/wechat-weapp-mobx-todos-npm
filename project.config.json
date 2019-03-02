@@ -5,10 +5,12 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false,
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.94",
+	"libVersion": "2.6.1",
 	"appid": "touristappid",
 	"projectname": "wechat-weapp-mobx-todos",
 	"condition": {

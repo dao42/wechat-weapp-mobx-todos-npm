@@ -1,5 +1,5 @@
-var observer = require('../../libs/observer').observer;
-var action = require('../../libs/mobx').action;
+const observer = require('wechat-weapp-mobx/observer').observer;
+var action = require('wechat-weapp-mobx/mobx').action;
 Page(observer({
   props: {
     todoStore: require('../../stores/todoStore').default

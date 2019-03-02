@@ -1,5 +1,5 @@
-var observable = require('../libs/mobx').observable;
-var extendObservable = require('../libs/mobx').extendObservable;
+var observable = require('wechat-weapp-mobx/mobx').observable;
+var extendObservable = require('wechat-weapp-mobx/mobx').extendObservable;
 
 var nextTodoId = 0
 var TodoItemStore = function(title) {

@@ -1,7 +1,7 @@
-var mobx = require('../libs/mobx');
-var extendObservable = require('../libs/mobx').extendObservable;
-var computed = require('../libs/mobx').computed;
-var toJS = require('../libs/mobx').toJS;
+var mobx = require('wechat-weapp-mobx/mobx');
+var extendObservable = mobx.extendObservable;
+var computed = mobx.computed;
+var toJS = mobx.toJS;
 var TodoItem = require('./todoItemStore').default;
 var action = mobx.action;
 

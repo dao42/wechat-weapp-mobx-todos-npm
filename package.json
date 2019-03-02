@@ -1,0 +1,23 @@
+{
+  "name": "wechat-weapp-mobx-todos-npm",
+  "version": "1.0.0",
+  "description": "微信小程序集成 mobx 实现的 Todo list ======================",
+  "main": "app.js",
+  "dependencies": {
+    "wechat-weapp-mobx": "^0.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/80percent/wechat-weapp-mobx-todos-npm.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/80percent/wechat-weapp-mobx-todos/issues"
+  },
+  "homepage": "https://github.com/80percent/wechat-weapp-mobx-todos#readme"
+}
