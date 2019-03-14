@@ -1,8 +1,11 @@
-const observer = require('wechat-weapp-mobx/observer').observer;
-var action = require('wechat-weapp-mobx/mobx').action;
+import { observer } from 'wechat-weapp-mobx/observer'
+import { action } from 'wechat-weapp-mobx/mobx'
+
+import todoStore from '../../stores/todoStore'
+
 Page(observer({
   props: {
-    todoStore: require('../../stores/todoStore').default
+    todoStore: todoStore
   },
 
   handleCheck: function(e) {

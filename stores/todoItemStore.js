@@ -1,20 +1,24 @@
-var observable = require('wechat-weapp-mobx/mobx').observable;
-var extendObservable = require('wechat-weapp-mobx/mobx').extendObservable;
+import { decorate, observable, computed } from 'wechat-weapp-mobx/mobx'
 
 var nextTodoId = 0
-var TodoItemStore = function(title) {
-  nextTodoId ++;
+class TodoItemStore {
+  constructor(title) {
+    this.title = title;
+  }
 
-  extendObservable(this, {
-    title: title,
-    id: nextTodoId,
-    completed: false,
-    get ids() {
-      return this.id + ": " + this.title;
-    }
-  });
+  title = null
+  id = nextTodoId++
+  completed = false
+  get ids() {
+    return this.id + ": " + this.title;
+  }
 }
 
-module.exports = {
-  default: TodoItemStore,
-}
+decorate(TodoItemStore, {
+  title: observable,
+  id: observable,
+  completed: observable,
+  ids: computed,
+})
+
+export default TodoItemStore;
