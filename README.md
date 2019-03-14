@@ -1,4 +1,4 @@
-微信小程序集成 mobx 实现的 Todo list( 结合 npm 整合 )
+微信小程序集成 mobx 实现的 Todo list( npm 整合， ES6 语法演示 )
 ======================
 
 在微信小程序中使用 [mobx](https://github.com/mobxjs/mobx) 实现Todo list
