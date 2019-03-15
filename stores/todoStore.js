@@ -47,6 +47,7 @@ class TodoStore {
 decorate(TodoStore, {
   todos: observable,
   filters: observable,
+  filter: observable,
   filterTodos: computed,
   totalCount: computed,
   currentCount: computed,
