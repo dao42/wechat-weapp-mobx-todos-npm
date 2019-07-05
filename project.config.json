@@ -13,6 +13,8 @@
 	"libVersion": "2.6.1",
 	"appid": "touristappid",
 	"projectname": "wechat-weapp-mobx-todos-npm",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

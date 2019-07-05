@@ -4,7 +4,7 @@
   "description": "微信小程序集成 mobx 实现的 Todo list ======================",
   "main": "app.js",
   "dependencies": {
-    "wechat-weapp-mobx": "^0.1.8"
+    "wechat-weapp-mobx": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
